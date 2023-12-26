@@ -51,7 +51,6 @@ class _ProjectMobileState extends State<ProjectMobile> {
             padding:  EdgeInsets.symmetric(horizontal: mq.width*0.03),
             child: Row(
               children:[
-
                 ProjectContainerMobile(title: 'Meetwith', link: 'https://github.com/Hitesh123mori/video_meet_App', language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "I developed this Video Conference application using Flutter, Dart,zegocloud and Firebase purely for learning new things. ",),
                 SizedBox(width: mq.width*0.02,),
                 ProjectContainerMobile(title: 'Contact Manager', link: 'https://github.com/Hitesh123mori/Contact_Manager', language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "I developed this Contact Manager application using Flutter, Dart,Binary Search Tree and Firebase for DSA Assignment",),
@@ -62,15 +61,11 @@ class _ProjectMobileState extends State<ProjectMobile> {
                 SizedBox(width: mq.width*0.02,),
                 ProjectContainerMobile(title: 'Chat with AI', link: "https://github.com/Hitesh123mori/Ai_Chat", language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "I developed this  application using Flutter, Dart,Open ai service and Firebase purely for learning new things.",),
                 SizedBox(width: mq.width*0.02,),
-                ProjectContainerMobile(title: 'Personal Website', link: '', language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "My personal Portfolio website using Flutter , dart, and firebase",)
-
+                ProjectContainerMobile(title: 'Personal Website', link: "https://github.com/Hitesh123mori/Portfolio-Website", language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "My personal Portfolio website using Flutter , dart, and firebase",),
               ]
             ),
           ),
         )
-
-
-
 
         ],
       ),

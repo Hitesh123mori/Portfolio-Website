@@ -57,7 +57,7 @@ class _KnowTechState extends State<Project> {
             SizedBox(width: mq.width*0.01,),
             ProjectContainer(title: 'Chat with AI', link: "https://github.com/Hitesh123mori/Ai_Chat", language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "I developed this  application using Flutter, Dart,Open ai service and Firebase purely for learning new things.",),
             SizedBox(width: mq.width*0.01,),
-            ProjectContainer(title: 'Personal Website', link: '', language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "My personal Portfolio website using Flutter , dart, and firebase",)
+            ProjectContainer(title: 'Personal Website', link: "https://github.com/Hitesh123mori/Portfolio-Website", language: ["assets/image/flutter.png","assets/image/dart.png","assets/image/firebase.png"], description: "My personal Portfolio website using Flutter , dart, and firebase",)
 
           ],
         )
